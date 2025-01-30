@@ -1,5 +1,92 @@
-<hmtl>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Schedule</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .on-time {
+            background-color: #d4edda;
+        }
+        .delayed {
+            background-color: #f8d7da;
+        }
+    </style>
 </head>
-  <body>
-<h1>AIRPORT DATA<h1>
+<body>
+    <h1>Flight Schedule</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>City</th>
+                <th>Flight Number</th>
+                <th>Airline</th>
+                <th>Gate</th>
+                <th>Seat</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="on-time">
+                <td>00:35</td>
+                <td>Cairo</td>
+                <td>MS921</td>
+                <td>Egypt Air</td>
+                <td>C</td>
+                <td>16A</td>
+                <td>On Time</td>
+            </tr>
+            <tr class="on-time">
+                <td>00:35</td>
+                <td>Cairo</td>
+                <td>GF079</td>
+                <td>Gulf Air</td>
+                <td>E</td>
+                <td>17A</td>
+                <td>On Time</td>
+            </tr>
+            <tr class="on-time">
+                <td>00:50</td>
+                <td>Istanbul</td>
+                <td>GF045</td>
+                <td>Gulf Air</td>
+                <td>E</td>
+                <td>17B</td>
+                <td>On Time</td>
+            </tr>
+            <tr class="on-time">
+                <td>01:05</td>
+                <td>Karachi</td>
+                <td>GF752</td>
+                <td>Gulf Air</td>
+                <td>E</td>
+                <td>14B</td>
+                <td>On Time</td>
+            </tr>
+            <tr class="on-time">
+                <td>01:20</td>
+                <td>Frankfurt
+
+
